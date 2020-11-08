@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\DashboardController@index')->name('dashboard');
 
-Auth::routes(['register' => false]);
+Auth::routes(['register' => true]);
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('products/{id}/gallery', 'App\Http\Controllers\ProductController@gallery')
