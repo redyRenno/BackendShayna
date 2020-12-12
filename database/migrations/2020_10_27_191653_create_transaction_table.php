@@ -20,7 +20,7 @@ class CreateTransactionTable extends Migration
             $table->string('email');
             $table->string('number');
             $table->string('address');
-            $table->integer('transaction_total');
+            $table->double('transaction_total');
             $table->string('transaction_status');
 
             $table->softDeletes();

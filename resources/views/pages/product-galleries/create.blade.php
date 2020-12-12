@@ -35,7 +35,7 @@
                         </label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input type="radio" name="is_default" value="1"
+                        <input type="radio" name="is_default" value="0"
                             class="form-check-input @error('is_default') is-invalid @enderror">
                         <label class="form-check-label">
                             Tidak
